@@ -7,7 +7,7 @@ Using Tensorboard and HPParams for Hyperparameter optimization during feature ex
 
 96% model accuracy for fire detection test dataset
 
-def train_test_model(hparams):	
+def train_test_model(hparams): <br>
   model = tf.keras.Sequential()	
   for layer in autokeras_model.layers[:-2]: # Skip first and last layer	
     model.add(layer)	
